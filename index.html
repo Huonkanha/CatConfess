@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Confession</title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/cat.icon.jpg">
+    <!--Link Tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Link Flowbite-->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <section class="flex justify-center items-center h-screen ">
+            <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-slate-50 dark:border-gray-700">
+                <div class="flex flex-col items-center pb-10">
+                    <img id="profile" class="w-[250px] h-[250px]  mb-3 rounded-full boject-cover" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image"/>
+                    <h5 id="title" class="mb-1 text-xl font-medium text-gray-900 dark:text-blue-900">Park Jimin</h5>
+                    <span id="description" class="text-sm text-gray-500 dark:text-blue-900">Visual Designer</span>
+                    <div class="flex mt-4 md:mt-6">
+                        <button id="btnYes" href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-purple-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add friend</button>
+                        <button id="btnNo" href="#" class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-blue-800 dark:bg-purple-500 dark:text-white dark:border-gray-600 dark:hover:text-white dark:hover:dark:hover:bg-blue-700">Message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
